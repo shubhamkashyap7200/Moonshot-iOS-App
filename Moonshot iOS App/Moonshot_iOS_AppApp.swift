@@ -11,7 +11,7 @@ import SwiftUI
 struct Moonshot_iOS_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainContentView()
         }
     }
 }
