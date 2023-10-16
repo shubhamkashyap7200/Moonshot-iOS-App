@@ -17,6 +17,7 @@
 		51933E922ADD72DC000512F6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51933E912ADD72DC000512F6 /* Extensions.swift */; };
 		51933E962ADD76DB000512F6 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51933E952ADD76DB000512F6 /* Mission.swift */; };
 		51B386962ADD92F800B5282E /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B386952ADD92F800B5282E /* MissionView.swift */; };
+		51B386982ADD9C6E00B5282E /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B386972ADD9C6E00B5282E /* AstronautView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		51933E912ADD72DC000512F6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		51933E952ADD76DB000512F6 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		51B386952ADD92F800B5282E /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		51B386972ADD9C6E00B5282E /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			children = (
 				5148972E2ADD5E7E00745665 /* MainContentView.swift */,
 				51B386952ADD92F800B5282E /* MissionView.swift */,
+				51B386972ADD9C6E00B5282E /* AstronautView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51B386982ADD9C6E00B5282E /* AstronautView.swift in Sources */,
 				51933E902ADD727B000512F6 /* Astronaut.swift in Sources */,
 				5148972F2ADD5E7E00745665 /* MainContentView.swift in Sources */,
 				5148972D2ADD5E7E00745665 /* Moonshot_iOS_AppApp.swift in Sources */,
