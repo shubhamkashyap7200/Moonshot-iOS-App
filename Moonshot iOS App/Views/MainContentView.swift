@@ -84,7 +84,7 @@ struct GridView: View {
             .background(Color.darkBackground)
             .preferredColorScheme(.dark)
             .toolbar {
-                Button(showingGrid ? "Grid" : "List") { showingGrid.toggle() }
+                Button(showingGrid ? "List" : "Grid") { showingGrid.toggle() }
             }
 
         }
@@ -139,7 +139,7 @@ struct ListView: View {
             .background(Color.darkBackground)
             .preferredColorScheme(.dark)
             .toolbar {
-                Button(showingGrid ? "Grid" : "List") { showingGrid.toggle() }
+                Button(showingGrid ? "List" : "Grid") { showingGrid.toggle() }
             }
 
         }
